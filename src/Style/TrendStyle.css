@@ -1,0 +1,62 @@
+.trend-container {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: .7s;
+}
+.trend-container-second {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:#0c1e25;
+    color: white;
+    transition: .7s;
+}
+.trend-container-content {
+    padding-right: 12px;
+    text-align: center;
+}
+.trend-container-content img {
+    height: 350px;
+    width: 350px;
+    border-radius: 8px;
+    transition: .7s;
+    cursor: pointer;
+}
+.trend-container-content img:hover {
+    transform: scaleY(1.05);
+}
+.background-trend-container {
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+}
+.background-trend-container-title{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding-top: 350px;
+    color: white;
+}
+.background-trend-container-title h3 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.background-trend-container-title p {
+    font-size: 24px;
+    text-align: left;
+    line-height: 1.7;
+}
+.background-trend-container-title button {
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
